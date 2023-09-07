@@ -1,0 +1,126 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .name p {
+    font-size: 20px;
+    font-family: cursive , monospace;
+}
+
+.header .introduce{
+    display: flex;
+    flex-direction: row;
+    padding-right: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .introduce p {
+    font-size: 20px;
+    font-family: cursive , monospace;
+}
+
+.header .name .logo {
+    margin: 0;
+}
+
+
+.content{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#new-todos-form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    font-family: cursive , monospace;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-todos-form label {
+    font-size: 20px;
+
+}
+
+#new-todos-form input {
+    border: none;
+    border-bottom: 2px solid purple;
+    outline: none;
+    height: 30px;
+    font-family: cursive , monospace;
+}
+
+#description {
+    height: 200px;
+}
+
+#new-todos-form .submitBtn {
+    font-family: cursive , monospace;
+    font-size: 20px ;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.todoList .card {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 80%;
+    height :auto ;
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.card .part1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: cursive , monospace;
+    font-weight: 300;
+}
+
+.card .part2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: cursive , monospace;
+    align-items: center ;
+
+}
+
+.card .part2 button {
+    width: 100px;
+    height: 30px;
+    margin: 14px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+}
+
+.part2 .statusbtn {
+    background-color: rgb(120, 120, 211);
+}
+
+.part2 .removebtn {
+    background-color: crimson;
+}

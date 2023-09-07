@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="name">
+            <img class="logo" height="100px" src="./image/Logo.png" alt="logo">
+            <p class="logo-name">toDo app</p>
+        </div>
+
+        <div class="introduce">
+            <p>the project was made by</p>
+            <a href="https://github.com/lujfy">
+                <img height="100px" src="./image/cat.jpg" alt="logo">
+            </a>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="content">
+        <div class="tabs">
+            <form id="new-todos-form" action="">
+                <label for="title">Title</label>
+                <input type="text" id="title">
+
+                <label for="description">description</label>
+                <textarea type="text" id="description"></textarea>
+
+                <label for="dueDate">Dates</label>
+                <input type="date" id="dueDate">
+
+                <label for="priority">priority</label>
+                <input type="text" id="priority">
+
+                <label for="checklist">Have you done it : </label>
+                <input type="checkbox" id="checklist" value="false">
+                <button type="submit" class="submitBtn" value="addTask">Submit</button>
+            </form>
+        </div>
+        <div class="todoList">
+            
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
